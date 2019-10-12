@@ -1,0 +1,99 @@
+/**{*/
+	/*box-sizing: border-box;*/
+	/*box-sizing обязателен так как с ним мы задаем актуальную высоту
+	и ширину*/
+}
+/*для того чтобы убрать баги всех браузеров
+нужно создать фаил resets.css*/
+/*.header{*/
+	/*text-align: center;*/
+	/*margin-top: 80px;*/
+
+/*}*/
+.header span{
+	display: block;
+	/*display block разделяет текст*/
+	font-size: 24px;
+	/*fontweight жирность шрифта*/
+	font-weight: 300;
+}
+body{
+	font-family: Tahoma;
+	/*Подключаем шрифт для всего семейства текста
+	Tahoma-шрифт без засечек*/
+	line-height: 1.5;
+	/*lina-hight-межстрочный интервал*/
+	color: 333;
+}
+.header strong{
+	font-weight: 900;
+	/*uppercase-делает шрифт заглавным*/
+	text-transform: uppercase;
+}
+.section{
+	padding: 30px 10%;
+}
+.main{
+	margin-top: 80px;
+	text-align: center;
+}
+.video, .form{
+	/*display inlain block делает жлементы блочно строчные
+	из блочных*/
+	display: inline-block;
+	
+	vertical-align: top;
+	
+}
+.video{
+	margin-left: 5px;
+}
+.form{
+	border: 5px solid #ffc0cb;
+	/*Определяем отступы внутри формы*/
+	padding: 20px;
+	text-align: center;
+
+}
+/*находит инпут и ставим ширину */
+.form input{
+
+	width:300px;
+	padding: 17px;
+	border:1px solid #333;
+	font-size:18px;
+	margin-top: 10px;
+	display: block;
+}
+.form-header{
+	text-align: center;
+	font-size:16;
+	font-style: italic;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.form button{
+	font-size:18px;
+	font-weight:900px;
+	background-color: red;
+	color: #fff;
+	border: none;
+	width: 300px;
+	height: 60px;
+	margin-top: 32px;
+}
+ .why{
+ 	text-align: center;
+ 	font-size: 20px;
+ }
+
+.col{
+	text-align:center;
+	display: inline-block;
+	margin: 10px 50px;
+	font-size:12px;
+}
+.feature-header{
+	text-align:center;
+	margin-top:60px;
+}
